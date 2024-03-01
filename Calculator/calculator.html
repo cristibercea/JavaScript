@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <script src="jquery-3.4.1.js"></script>
+        <script src="calculator.js"></script>
+        <link rel="stylesheet" href="calculator.css" type="text/css" media="screen">
+    </head>
+    <body>
+        <div class="cursor"></div>
+        <div class="wrapper">
+            <div class="box1" id="scr"></div>
+            <button class="box6" onclick="appendDigit(Math.PI)" >π</button>
+            <button class="box8" onclick="myClear()">AC</button>
+            <button lang="x" class="box6" onclick="mySQ()">x^(2)</buttonx>
+            <button class="box6" onclick="mySqrt()">√x</button>
+            <button class="box8" onclick="eraseOne()">C</button>
+            <button class="box6" onclick="factorial()" >n!</button>
+            <button class="box3" onclick="appendDigit(1)">1</button>
+            <button class="box3" onclick="appendDigit(2)">2</button>
+            <button class="box3" onclick="appendDigit(3)">3</button>
+            <button class="box6" onclick="myMultiply()">*</button>
+            <button class="box6" onclick="appendDigit('(')">(</button>
+            <button class="box3" onclick="appendDigit(4)">4</button>
+            <button class="box3" onclick="appendDigit(5)">5</button>
+            <button class="box3" onclick="appendDigit(6)">6</button>
+            <button class="box6" onclick="myDiv()">/</button>
+            <button class="box6" onclick="appendDigit(')')">)</button>
+            <button class="box3" onclick="appendDigit(7)">7</button>
+            <button class="box3" onclick="appendDigit(8)">8</button>
+            <button class="box3" onclick="appendDigit(9)">9</button>
+            <button class="box6" onclick="myMenos()">-</button>
+            <button class="box6" onclick="appendDigit(Math.E)">e</button>
+            <button class="box3" onclick="myZeros()">00</button>
+            <button class="box3" onclick="appendDigit(0)">0</button>
+            <button class="box3" onclick="myZecimal()">.</button>
+            <button class="box4" onclick="myPlus()">+</button>
+            <button class="box5" onclick="ln()">ln(x)</button>
+            <button class="box6" onclick="myMod()">%</button>
+            <button class="box6" onclick="mySQY()">x^(y)</button>
+            <button class="box7" onclick="myRezult()">=</button>
+        </div>
+        <grid>
+            <button onclick="mySQ(2)">x^(2)</button>
+            <button onclick="mySQ(3)">x^(3)</button>
+            <button onclick="mySQ(4)">x^(4)</button>
+        </grid>
+    </body>
+</html>
